@@ -56,4 +56,17 @@ public class SolutionIntChar {
 			System.out.println(i+"\t"+(char)i);
 		}	
 	}
+	
+	@SuppressWarnings("unused")
+	private static void printDoubleToChar() {
+		double d = 1000.555;
+		int a = (int)d;
+		System.out.println((char)a+"\t"+(char)d);
+	}
+	
+	@SuppressWarnings("unused")
+	private static void printChartToDouble() {
+		char a = 1000;
+		System.out.println(a+"\t"+ (double)a);
+	}
 }
