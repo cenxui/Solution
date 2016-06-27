@@ -3,6 +3,9 @@ package test;
 public class SolutionIntChar {
 
 	public static void main(String[] args) {
+		int i = -10;
+		char a = (char)i;
+		System.out.println(a + "int" + (int)a);
 		
 	}
 	
